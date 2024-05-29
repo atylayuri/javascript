@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Tábuada</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
         <header>
-            <h1>Título</h1>
+            <h1>Tábuada</h1>
         </header>
         <section>
             <div>
-                Testando...
+                <p>Número: 
+                    <input           type="number" name="tab" id="itab">
+                    <input type="button" value="Gerar Tábuada" onclick="gerar()"></p>
             </div>
             <div>
-
+               <select name="tabuada" id="seltab" size="10">
+                    <option value="">Digite um número acima</option>
+               </select>
             </div>
         </section>
         <footer>
